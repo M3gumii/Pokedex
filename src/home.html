@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<!--
+https://dev.to/iamcymentho/building-a-complete-weather-app-from-scratch-with-html-css-and-javascript-a-step-by-step-guide-30h4
+-->
+<html lang = "en"> <!--Holds all html for the page...-->
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>✨Pokedex✨</title>
+        <link rel="stylesheet" href="styles.css"> <!--Connect the stylesheet by linking to to this html page!-->
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!--All the stuff actually shown on the page...-->
+            <div class="container">
+                <h1>Welcome to the<br><img src="./Images/Pokeball.png" style="width:20px;height:20px"> Pokédex! <img src="./Images/Pokeball.png" style="width:20px;height:20px">
+                    <hr></h1>
+                <p id="notif"></p>
+                <input type = "text" id = "pokeInput" placeholder="Pokemon?">  <!--Allow for text input from the user...-->
+                <button id ="searchButton">Find!</button>
+
+                <div class="info">   <!--To be set upon lookup of a valid location.-->
+                    <img id="pic">
+                </div>
+            </div>
+
+            <div class="container">
+                <h1>Data<br></h1>
+                <div class="info">
+                    <h3 id="name"></h2>
+                    <p id="desc"></p>
+
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

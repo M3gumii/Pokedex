@@ -1,0 +1,85 @@
+:root { /*Use to def vars*/
+     --brown: #332b27;
+     --mainBg: #c55844;
+     --basicFont: 'Courier New', Courier, monospace;
+}
+
+.wrapper{
+     /*Wrapper class...*/
+     display: grid;
+     grid-template-columns: 350px 350px;
+    justify-content: center;
+
+}
+
+body {
+    font-family: var(--basicFont);
+    color: var(--brown);
+    background-color: var(--mainBg); /*purple for the bg*/
+}
+
+.container { /*Holds the app*/
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: cornsilk;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(42, 33, 51, 0.3);
+    margin-top: 105px;
+    border: 2px dashed;
+    border-color: var(--brown);
+}
+
+
+h1 { /*applies to all h1 tags!*/
+    font-size: 24px;
+}
+
+#notif {
+    font-family: var(--basicFont);
+    font-size: 11px;
+    color: var(--brown);
+}
+
+#locationInput { /*id fetcher for this id!*/
+    font-family: var(--basicFont);
+    width: 50%;
+    padding: 5px;
+    border: 2px solid var(--brown);
+    border-radius: 5px;
+}
+
+#infoTitle{
+    text-align: left;
+}
+
+button {
+    font-family: var(--basicFont);
+    background-color: white;
+    color: var(--brown);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border-style:solid;
+    border-color: var(--brown);
+}
+
+#desc{ 
+    text-align: left;
+    offset: 20px;
+}
+#name{
+    text-align: left;
+}
+
+#pic{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-color: var(--brown);
+    border: 2px solid;
+    border-radius: 20px;
+}
